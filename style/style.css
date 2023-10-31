@@ -9,3 +9,34 @@
 .border div.col-1{
     border: 1px solid purple;
 }
+
+section.jumbo {
+    margin-bottom: 2rem;
+}
+
+.bg{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+
+/* background color icons */
+.bg-red{
+    background-color: rgb(186, 75, 99);
+}
+
+.bg-light-blue{
+    background-color: rgb(30, 164, 182);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-blue{
+    background-color: rgb(28, 131, 193);
+}
+
+.bg-dark-blue{
+    background-color: rgb(14, 56, 181)
+}
