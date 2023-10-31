@@ -7,8 +7,6 @@
     background-color: rgb(26, 188, 156);
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.border div.col-1{
+    border: 1px solid purple;
 }
