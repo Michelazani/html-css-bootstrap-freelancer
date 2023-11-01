@@ -40,3 +40,18 @@ section.jumbo {
 .bg-dark-blue{
     background-color: rgb(14, 56, 181)
 }
+
+.bg-beige{
+    background-color: rgb(204, 178, 163);
+}
+
+.bg-green{
+    background-color: rgb(26, 188, 156);
+}
+ .upper-footer{
+    background-color: rgb(58, 84, 109);
+ }
+
+ .lower-footer{
+    background-color: rgb(44, 62, 80) ;
+ }
