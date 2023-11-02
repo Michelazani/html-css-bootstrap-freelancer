@@ -14,8 +14,8 @@ section.jumbo {
     margin-bottom: 2rem;
 }
 
-.bg{
-    margin-bottom: 1rem;
+.my_bg{
+    margin: 0.5rem;
     border-radius: 10px;
 }
 
