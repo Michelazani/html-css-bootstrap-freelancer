@@ -29,12 +29,12 @@ section.jumbo {
 }
 
 .wh{
-    border-bottom: 4px solid white;
+    border-bottom: 3px solid white;
     width: 3rem;
 }
 
 .bl{
-    border-bottom: 4px solid #2c3e50;
+    border-bottom: 3px solid #2c3e50;
     width: 5rem;
 }
 
@@ -46,7 +46,8 @@ section.jumbo {
 /* color text */
 h2,
 p,
-section.about h4 {
+section.about h4,
+.my_text-white {
     color: white;
 }
 
@@ -59,7 +60,24 @@ section.about h4 {
     border-radius: 0px;
 }
 
+.my_font-smaller{
+    font-size: 0.5rem;
+}
 
+.my_green-text{
+    color: rgb(27, 187, 155);
+}
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-twitter,
+.fa-linkedin-in
+{
+    width: 13%;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
 /* background color icons */
 
 .my_bg{
@@ -100,4 +118,33 @@ section.about h4 {
 
  .lower-footer{
     background-color: rgb(44, 62, 80) ;
+ }
+
+
+ @media screen and (min-width : 768px) {
+    .wh{
+        border-bottom: 3px solid white;
+        width: 5rem;
+    }
+    
+    .bl{
+        border-bottom: 3px solid #2c3e50;
+        width: 5rem;
+    }
+
+    .fa-facebook-f,
+    .fa-google-plus-g,
+    .fa-twitter,
+    .fa-linkedin-in{
+    width: 20%;
+    }
+ }
+
+ @media screen and (min-width : 992px) {
+    .fa-facebook-f,
+    .fa-google-plus-g,
+    .fa-twitter,
+    .fa-linkedin-in{
+    padding: 0.8rem;
+    }
  }
