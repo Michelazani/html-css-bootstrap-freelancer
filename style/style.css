@@ -19,7 +19,12 @@ section.jumbo {
     border-radius: 10px;
 }
 
-
+.my_border-star{
+    display: inline-block;
+    width: 3rem;
+    border-bottom: 4px solid white;
+    vertical-align: middle;
+}
 
 
 /* background color icons */
