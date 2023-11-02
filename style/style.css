@@ -45,7 +45,8 @@ section.jumbo {
 
 /* color text */
 h2,
-p {
+p,
+section.about h4 {
     color: white;
 }
 
